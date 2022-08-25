@@ -8,7 +8,6 @@ USE db_escola;
 CREATE TABLE tb_alunos(
 
 
-id bigint auto_increment primary key,
 nome varchar (55),
 data_nascimento date,
 turma int,
